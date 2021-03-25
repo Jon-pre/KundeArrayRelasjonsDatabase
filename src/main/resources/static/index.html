@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>com.example.demo.Kunde relasjonsdatabase</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/2.3.1/css/bootstrap.min.css">
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+<H1>com.example.demo.Kunde</H1>
+
+<form id = "kunder">
+    <div class>
+     <label for="navn">Navn</label>
+    <input type ="text" id="navn"/>
+    </div>
+    <div>
+    <label for="adresse">Adresse</label>
+    <input type = "text" id="adresse"/>
+    </div>
+</form>
+<form>
+<button type="button" class="btn btn-success" onclick="regisrerPerson()">Regisrer</button>
+    <br>
+    <h2>Alle kunder</h2>
+    <div id = ut></div>
+    <button type="button" class="btn btn-danger" onclick="slettRegister()" >Slett</button>
+</form>
+
+</body>
+</html>
